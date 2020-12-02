@@ -1,0 +1,198 @@
+/*шапка (хедер);
+блок "о компании";
+
+блок "команда"
+
+блок "тарифы"
+
+блок "контакты"
+
+подвал сайта (футер)*/
+
+.menu{
+text-align:center;
+position:fixed;
+top:0;
+background-color:pink;
+opacity:70%;
+
+}
+.menu a{
+text-decoration:none;
+color:white;
+display:inline-block;
+width:245px;
+}
+.head a:hover{
+color:red;
+background-color:white;
+
+
+} 
+
+
+
+.menu a:hover {
+color:black;
+
+
+
+}
+body{
+background:linear-gradient(45deg, #EECFBA, #C5DDE8);
+
+
+}
+.head {
+text-align:center;
+background-image:url(f.jpg);
+padding:200px 300px;
+background-size:contain;
+background-repeat:no-repeat;
+background-position:center;
+color:white;
+margin-top:50px;
+background-attachment:fixed;
+}
+
+.head a{
+padding:12px 24px;
+background-color:grey;
+border-radius:12px;
+text-decoration:none;
+
+
+}
+.about img {
+height:145px;
+width:145px;
+float:right;
+margin:20px;
+margin-top:0px;
+
+
+} 
+.comand img {
+height:210px;
+width:160px;
+
+
+
+
+}
+.about div{
+display: inline-block; 
+
+
+
+
+
+}
+.about {
+text-align: center;
+max-width:1200px;
+margin: 0 auto;
+
+
+}
+ .comand div{
+display:inline-block;
+width:25%;
+border:5px black solid;
+margin:20px 10px;
+height:550px;
+box-shadow: 5px 16px 147px 54px  green;
+ }
+ .comand{
+vertical-align: top;
+ 
+ }
+
+
+
+
+.comand a{
+padding:12px 24px;
+background-color:grey;
+border-radius:12px;
+text-decoration:none;
+
+
+
+}
+.tarif span {
+font-weight:bold;
+
+
+
+}
+
+
+.tarif a{
+padding:12px 24px;
+background-color:black;
+border-radius:12px;
+text-decoration:none;
+color: white; 
+
+
+
+}
+.tarif li {
+list-style-type:none;
+border-bottom:1px solid black;
+padding: 16px 0px;
+text-align:center;
+
+
+}
+.lol {
+background-color: black;
+color: white;
+text-align:center;
+
+
+
+}
+ul{
+display: inline-block;
+width: 25%;
+margin: 12px;
+background-color: white;
+padding-inline-start:0px;
+text-align:center;
+
+
+
+}
+
+.gg {
+background-color:green;
+
+
+}
+.contact img,p{
+display: inline-block;
+
+
+}
+.futor{
+background-color:black;
+width:100%;
+color:white;
+
+}
+.text2{
+width:10%;
+
+
+
+}
+.tewxt3{
+	width: 70%;
+
+
+
+
+
+}
